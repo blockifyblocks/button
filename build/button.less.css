@@ -1,0 +1,36 @@
+.block-button {
+  /* This inherits the bootstrap .btn */
+  padding: 12px 16px;
+  /* Transition */
+  -webkit-transition-duration: .25s;
+  transition-duration: .25s;
+  -webkit-transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  -webkit-transition-property: color, border-color, background-color, box-shadow, text-shadow;
+  transition-property: color, border-color, background-color, box-shadow, text-shadow;
+  /* Default Style */
+  /* Uppercase Text */
+  /* Success Style */
+}
+.block-button,
+.block-button.btn-default {
+  color: #212121;
+  background-color: #fff;
+  border: 2px solid #fff;
+}
+.block-button:active,
+.block-button.btn-default:active {
+  background-color: #FAFAFA;
+  box-shadow: none;
+}
+.block-button.btn-uppercase {
+  text-transform: uppercase;
+}
+.block-button.btn-success {
+  padding: 16px 20px;
+  border-width: 0;
+  color: #fff;
+}
+.block-button.btn-success {
+  background-color: #5CB85C;
+}
